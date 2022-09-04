@@ -6,11 +6,6 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
 const Map = ({ eventData, center, zoom }) => {
-  function handleChange(id, name) {
-    setSelection(id);
-    setDisplayed(name);
-  }
-
   const [selection, setSelection] = useState(8);
 
   const [displayed, setDisplayed] = useState("Wildfires");
