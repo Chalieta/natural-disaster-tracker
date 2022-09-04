@@ -1,12 +1,13 @@
 import { Icon } from "@iconify/react";
-import locationIcon from "@iconify/icons-mdi/fire-alert";
+import nasaIcon from "@iconify/icons-simple-icons/nasa";
 
 const Header = () => {
   return (
     <header className="header">
-      <h1>
-        <Icon icon={locationIcon} /> Wildfire Tracker (Powered by NASA)
-      </h1>
+      <h1> Natural Disaster Tracker </h1>
+      <h5>
+        Powered by <Icon icon={nasaIcon} style={{ fontSize: "3rem" }} />
+      </h5>
     </header>
   );
 };

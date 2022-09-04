@@ -5,8 +5,9 @@ body {
 }
 
 .header {
-  padding: 10px;
-  background-color: firebrick;
+  min-height: 5%;
+  padding: 1%;
+  background-color: black;
   color: white;
   position: fixed;
   top: 0;
@@ -22,15 +23,39 @@ body {
   text-align: center;
 }
 
+.header h5 {
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
 .map {
   width: 100vw;
   height: 100vh;
   position: relative;
 }
 
-.location-icon {
+.fire-icon,
+.volcano-icon {
   font-size: 2rem;
   color: red;
+  cursor: pointer;
+}
+
+.flood-icon,
+.storm-icon {
+  font-size: 2rem;
+  color: blue;
+  cursor: pointer;
+}
+
+.drought-icon,
+.earthquake-icon,
+.landslide-icon {
+  font-size: 2rem;
+  color: burlywood;
+  cursor: pointer;
 }
 
 .loader {
@@ -47,7 +72,7 @@ body {
 
 .location-info {
   position: absolute;
-  top: 80px;
+  top: 15%;
   right: 50px;
   width: 400px;
   min-height: 150px;

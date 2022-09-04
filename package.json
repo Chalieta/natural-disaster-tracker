@@ -3,7 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@iconify/icons-carbon": "^1.2.8",
+    "@iconify/icons-fa6-solid": "^1.2.7",
+    "@iconify/icons-ic": "^1.2.10",
     "@iconify/icons-mdi": "^1.2.29",
+    "@iconify/icons-ri": "^1.2.3",
+    "@iconify/icons-simple-icons": "^1.2.24",
+    "@iconify/icons-typcn": "^1.2.2",
     "@iconify/react": "^3.2.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -11,6 +17,7 @@
     "dotenv": "^16.0.1",
     "google-map-react": "^2.2.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
