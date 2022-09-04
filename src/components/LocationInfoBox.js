@@ -1,7 +1,7 @@
 const LocationInfoBox = ({ info }) => {
   return (
     <div className="location-info">
-      <h3>Event Information</h3>
+      <h4>Event Information</h4>
       <ul>
         <li>
           ID: <strong>{info.id}</strong>

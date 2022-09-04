@@ -55,7 +55,7 @@ const Map = ({ eventData, center, zoom }) => {
         variant="dark"
         id="dropdown-basic-button"
         title={displayed}
-        style={{ position: "absolute", top: "15%", left: "50px" }}
+        className="drop-down"
       >
         <Dropdown.Item
           onClick={() => {
