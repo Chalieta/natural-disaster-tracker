@@ -6,6 +6,8 @@ import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 
 const Map = ({ eventData, center, zoom }) => {
+  const { REACT_APP_GOOGLE_MAPS_API_KEY } = process.env;
+
   const [selection, setSelection] = useState(8);
 
   const [displayed, setDisplayed] = useState("Wildfires");
@@ -44,7 +46,7 @@ const Map = ({ eventData, center, zoom }) => {
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyD6acxBS-zPtIjvKiZvs1xPOQtQE7jkf7Q" }}
+        bootstrapURLKeys={{ key: REACT_APP_GOOGLE_MAPS_API_KEY }}
         defaultCenter={center}
         defaultZoom={zoom}
       >
